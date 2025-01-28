@@ -52,7 +52,7 @@ public class TestUtils {
 
 	// Send an Email code by using sendGrid
 	public void sendReportToEmail() throws IOException {
-		String sendGridApiKey = "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"; // Replace with your SendGrid API Key
+		String sendGridApiKey = ""; // Replace with your SendGrid API Key
 		String fromEmail = "pavan@aristasystems.in";
 		String toEmail = "pawanrewatkar28@gmail.com"; //send Email to one Mail ID
 		List<String> recipients = List.of(
