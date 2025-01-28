@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.rt.testUtils.Listener"></listener>
+	</listeners>
+	<test thread-count="1" name="Test">
+		<classes>
+		
+			<class name="com.rt.test.NewArrivals_Test" />
+			<class name="com.rt.clothing.test.Tops_Test" />
+			<class name="com.rt.clothing.test.Dress_Test" />
+			<class name="com.rt.clothing.test.Bottoms_Test" />
+			<class name="com.rt.clothing.test.Jackets_Test" />
+			<class name="com.rt.clothing.test.ViewAll_Test" />
+			<class name="com.rt.collections.test.Spring24Collection_Test" /> 
+			<class name="com.rt.collections.test.RebeccaEssentials_Test" />
+			<class name="com.rt.collections.test.WorkwearEdit_Test" />
+			<class name="com.rt.test.ProductATCFlowPage_Test" />
+			<class name="com.rt.test.HomePageTest" />
+			
+			<!--
+			 <class name="com.rt.collections.test.TheWhiteEdit_Test" />
+			<class name="com.rt.test.ProductATCFlowPage_Test" />
+			<class name="com.rt.collections.test.TheGetawayEdit_Test" />
+			<class name="com.rt.test.SalePage_Test" />
+			-->
+			<class name="com.rt.utils.UtilityClass" />
+			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

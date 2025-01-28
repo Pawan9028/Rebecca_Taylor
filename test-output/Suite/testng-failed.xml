@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.rt.testUtils.Listener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.rt.clothing.test.ViewAll_Test">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="verifyPageTitle"/>
+          <include name="verifyProductPricesPresence"/>
+          <include name="verifyPageURL"/>
+          <include name="CloseBrowser"/>
+          <include name="verifyfiltersPresenceAndEnable"/>
+          <include name="loadObject"/>
+          <include name="clearOldScreenshots"/>
+          <include name="verifyProductNamePresence"/>
+        </methods>
+      </class> <!-- com.rt.clothing.test.ViewAll_Test -->
+      <class name="com.rt.test.HomePageTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="CloseBrowser"/>
+          <include name="VerifyHeader"/>
+          <include name="loadObject"/>
+          <include name="clearOldScreenshots"/>
+        </methods>
+      </class> <!-- com.rt.test.HomePageTest -->
+      <class name="com.rt.collections.test.WorkwearEdit_Test">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="CloseBrowser"/>
+          <include name="verifyProductsQuickAddEnable"/>
+          <include name="verifyfiltersPresenceAndEnable"/>
+          <include name="clearOldScreenshots"/>
+          <include name="loadObject"/>
+        </methods>
+      </class> <!-- com.rt.collections.test.WorkwearEdit_Test -->
+      <class name="com.rt.collections.test.Spring24Collection_Test">
+        <methods>
+          <include name="verifyProductsOnThePage"/>
+          <include name="openBrowser"/>
+          <include name="verifyPageURL"/>
+          <include name="CloseBrowser"/>
+          <include name="verifyProductNamePresence"/>
+          <include name="laodObject"/>
+          <include name="clearOldScreenshots"/>
+        </methods>
+      </class> <!-- com.rt.collections.test.Spring24Collection_Test -->
+      <class name="com.rt.clothing.test.Dress_Test">
+        <methods>
+          <include name="loadObject"/>
+          <include name="openBrowser"/>
+          <include name="CloseBrowser"/>
+          <include name="verifyProductNamePresence"/>
+          <include name="clearOldScreenshots"/>
+          <include name="verifyProductsQuickAddEnable"/>
+        </methods>
+      </class> <!-- com.rt.clothing.test.Dress_Test -->
+      <class name="com.rt.clothing.test.Jackets_Test">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="CloseBrowser"/>
+          <include name="verifyPageTitle"/>
+          <include name="verifyProductNamePresence"/>
+          <include name="loadObject"/>
+          <include name="clearOldScreenshots"/>
+        </methods>
+      </class> <!-- com.rt.clothing.test.Jackets_Test -->
+      <class name="com.rt.collections.test.RebeccaEssentials_Test">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="verifyPageURL"/>
+          <include name="CloseBrowser"/>
+          <include name="verifyProductsOnThePage"/>
+          <include name="loadObject"/>
+          <include name="clearOldScreenshots"/>
+          <include name="verifyProductNamePresence"/>
+        </methods>
+      </class> <!-- com.rt.collections.test.RebeccaEssentials_Test -->
+      <class name="com.rt.clothing.test.Tops_Test">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="verifyfiltersPresenceAndEnable"/>
+          <include name="verifyProductsQuickAddEnable"/>
+          <include name="CloseBrowser"/>
+          <include name="verifyPageTitle"/>
+          <include name="verifyProductPricesPresence"/>
+          <include name="verifySortByFilter"/>
+          <include name="verifyPageURL"/>
+          <include name="clearOldScreenshots"/>
+          <include name="loadObject"/>
+        </methods>
+      </class> <!-- com.rt.clothing.test.Tops_Test -->
+      <class name="com.rt.clothing.test.Bottoms_Test">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="verifyPageLoadTime"/>
+          <include name="CloseBrowser"/>
+          <include name="loadObject"/>
+          <include name="verifyProductsQuickAddEnable"/>
+          <include name="verifyProductsOnThePage"/>
+          <include name="clearOldScreenshots"/>
+          <include name="verifyProductPricesPresence"/>
+        </methods>
+      </class> <!-- com.rt.clothing.test.Bottoms_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
